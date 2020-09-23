@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/styles.css"/>
+    <link rel="stylesheet" href="static/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <script src="static/bootstrap/dist/js/jquery-1.11.3.min.js"></script>
+    <script src="static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="static/Flat-UI/dist/js/flat-ui.min.js"></script>
+    <title>基于大数据图书分析系统</title>
+    <style>
+        .row {
+            margin-top: 10px;;
+        }
+
+        p {
+            white-space: nowrap;
+            word-wrap: break-word;
+            word-break: break-all;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .pagination {
+            background: #cccccc;
+        }
+    </style>
+    <script>
+        $(function () {
+            $('#myTabs a').click(function (e) {
+                $(this).tab('show')
+            });
+        })
+    </script>
+</head>
+<body>
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only"></span>
+            </button>
+            <a class="navbar-brand" href="/">基于大数据图书分析系统</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">首页</a></li>
+                <li><a href="/historical">历史评分</a></li>
+                <li><a href="/user">个人中心</a></li>
+            </ul>
+            {% if not login %}
+                <ul class="nav navbar-nav navbar-right hidden-sm">
+                    <li><a href="/loginForm">登录</a></li>
+                    <li><a href="/registerationForm">注册</a></li>
+                    <li>
+                        <a href="/order"><span class="glyphicon glyphicon-shopping-cart">书单</span></a></li>
+                </ul>
+            {% else %}
+                <ul class="nav navbar-nav navbar-right hidden-sm">
+                    <li><a>{{ useid }}</a></li>
+                    <li><a href="/logout">注销</a></li>
+                    <li>
+                        <a href="/order"><span class="glyphicon glyphicon-shopping-cart">书单</span></a></li>
+                </ul>
+            {% endif %}
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<!--content-->
+<div class="container">
+    <div class="jumbotron">
+        <h4 align="center">基于大数据图书分析系统</h4>
+            <p>说明：推荐书籍1采用的是离线推荐，通过后台定期更新，使用Mysql查询方式。</p><p>优点：响应速度快；缺点：推荐信息更新慢</p>
+            <p>说明：推荐书籍2采用的是实时推荐，启动项目后，直接加载数据集文件。</p><p>优点：推荐数据能够及时更新，缺点：用户点击后响应时间慢，需要数十秒</p>
+        <div class="search bar7">
+            <form action="/search" method="GET">
+                <p>
+                    {% if key %}
+                        <input type="text" name="keyword" value="{{ key }}">
+                    {% else %}
+                        <input type="text" name="keyword">
+                    {% endif %}
+                    <button type="submit"></button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="nav nav-tabs" id="myTabs">
+        <li><a href='/'>热门书籍</a></li>
+        <li><a href='/guess'>猜你喜欢</a></li>
+        <li><a href='/recommend'>推荐书籍1</a></li>
+        <li><a href='/recommend2'>推荐书籍2</a></li>
+    </ul>
+    <div class="row">
+        {% if not books %}
+            {% if login %}
+                <p><a href="/loginForm" class="btn btn-primary btn-block" role="button">你未对书籍进行评分，无法获得推荐数据</a></p>
+
+            {% else %}
+                <p><a href="/loginForm" class="btn btn-primary btn-block" role="button">请登录后查看</a></p>
+            {% endif %}
+        {% else %}
+            {% for book in books %}
+                <div class="col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <a href="/bookinfo?bookid={{ book[2] }}">
+                            <img style="width: 100%; height: 200px; display: block;" alt="100%x200" src="{{ book[3] }}">
+                        </a>
+                        <div class="caption center">
+                            <p>{{ book[0] }}</p>
+                            {% if name=="recommend" %}
+                            <p><span>推荐分:</span><span>{{ book[4] }}</span></p>
+                            {% else %}
+                            <p><span>作者:</span><span>{{ book[1] }}</span></p>
+                            {% endif %}
+                            <p><a href="/bookinfo?bookid={{ book[2] }}" bookid="{{ book[2] }}"
+                                  class="btn btn-primary btn-block" role="button">查看详情</a></p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+</div>
+
+
+</body>
+</html>

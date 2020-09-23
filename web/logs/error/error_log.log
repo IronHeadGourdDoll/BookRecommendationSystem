@@ -1,0 +1,2164 @@
+2020-05-27 19:16:10,833 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 415, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 19:16:17,298 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 415, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 19:16:42,365 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 415, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 19:16:45,660 - ERROR - app:log_exception - lineno:1891 - Exception on /user [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 337, in user
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 19:16:48,819 - ERROR - app:log_exception - lineno:1891 - Exception on /order [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 448, in order
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 19:17:19,299 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 415, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 19:17:37,848 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 415, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 19:24:26,322 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 417, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 19:24:27,507 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 417, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 19:30:09,589 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 417, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'main.loginForm' instead?
+2020-05-27 19:30:11,319 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 417, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'main.loginForm' instead?
+2020-05-27 19:30:11,893 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 417, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'main.loginForm' instead?
+2020-05-27 19:30:13,483 - ERROR - app:log_exception - lineno:1891 - Exception on /user [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 339, in user
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'main.loginForm' instead?
+2020-05-27 19:30:34,593 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 417, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'main.loginForm' instead?
+2020-05-27 19:32:26,367 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 417, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'main.loginForm' instead?
+2020-05-27 19:32:27,366 - ERROR - app:log_exception - lineno:1891 - Exception on /historical [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 417, in historical
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'main.loginForm' instead?
+2020-05-27 19:32:30,038 - ERROR - app:log_exception - lineno:1891 - Exception on /user [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 339, in user
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'main.loginForm' instead?
+2020-05-27 19:32:32,055 - ERROR - app:log_exception - lineno:1891 - Exception on /order [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 450, in order
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'main.loginForm' instead?
+2020-05-27 19:35:29,553 - ERROR - app:log_exception - lineno:1891 - Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 244, in login
+    session['userid'] = username
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2020-05-27 19:36:29,031 - ERROR - app:log_exception - lineno:1891 - Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 244, in login
+    session['userid'] = username
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2020-05-27 19:36:41,526 - ERROR - app:log_exception - lineno:1891 - Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 247, in login
+    session['userid'] = username
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2020-05-27 19:37:56,101 - ERROR - app:log_exception - lineno:1891 - Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 247, in login
+    session['userid'] = username
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\local.py", line 350, in __setitem__
+    self._get_current_object()[key] = value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\sessions.py", line 103, in _fail
+    "The session is unavailable because no secret "
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2020-05-27 20:01:27,963 - ERROR - app:log_exception - lineno:1891 - Exception on /order [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 450, in order
+    return redirect(url_for('main.loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'main.loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 20:02:42,974 - ERROR - app:log_exception - lineno:1891 - Exception on /order [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 450, in order
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 20:02:50,020 - ERROR - app:log_exception - lineno:1891 - Exception on /user [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 339, in user
+    return redirect(url_for('loginForm'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'loginForm'. Did you mean 'app.loginForm' instead?
+2020-05-27 20:02:54,993 - ERROR - app:log_exception - lineno:1891 - Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 248, in login
+    return redirect(url_for('root'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'root'. Did you mean 'app.root' instead?
+2020-05-27 20:24:25,050 - ERROR - app:log_exception - lineno:1891 - Exception on /login [POST]
+Traceback (most recent call last):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 226, in is_valid
+    logger.info('username:{},password:{}: has login filed'.format(username))
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 245, in login
+    if is_valid(username):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 229, in is_valid
+    logger.exception('username:{},password:{}: has login error'.format(username))
+IndexError: tuple index out of range
+2020-05-27 20:24:30,677 - ERROR - app:log_exception - lineno:1891 - Exception on /login [POST]
+Traceback (most recent call last):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 223, in is_valid
+    logger.info('username:{},password:{}: has login success'.format(username))
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 245, in login
+    if is_valid(username):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 229, in is_valid
+    logger.exception('username:{},password:{}: has login error'.format(username))
+IndexError: tuple index out of range
+2020-05-27 20:24:37,303 - ERROR - app:log_exception - lineno:1891 - Exception on /login [POST]
+Traceback (most recent call last):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 223, in is_valid
+    logger.info('username:{},password:{}: has login success'.format(username))
+IndexError: tuple index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 245, in login
+    if is_valid(username):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 229, in is_valid
+    logger.exception('username:{},password:{}: has login error'.format(username))
+IndexError: tuple index out of range
+2020-05-28 07:07:36,995 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 141, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 07:11:27,337 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 141, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 07:29:08,404 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 139, in recommend2
+    top_ratings = recommendation_engine.get_top_ratings(userid, 5)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 89, in get_top_ratings
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[2]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in takeOrdered
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 844, in reduce
+    vals = self.mapPartitions(func).collect()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 816, in collect
+    sock_info = self.ctx._jvm.PythonRDD.collectAndServe(self._jrdd.rdd())
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\protocol.py", line 328, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 3 in stage 192.0 failed 1 times, most recent failure: Lost task 3.0 in stage 192.0 (TID 147, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 49, in <lambda>
+    predicted_rating_title_and_count_RDD.map(lambda r: (r[1][0][1][0], r[1][0][0][0], r[1][1], r[1][0][1][1], r[1][0][1][2], r[1][0][1][3], r[1][0][1][4]))
+TypeError: 'float' object is not subscriptable
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1891)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1879)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1878)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1878)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2112)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2061)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2050)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:738)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2126)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:385)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:989)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 49, in <lambda>
+    predicted_rating_title_and_count_RDD.map(lambda r: (r[1][0][1][0], r[1][0][0][0], r[1][1], r[1][0][1][1], r[1][0][1][2], r[1][0][1][3], r[1][0][1][4]))
+TypeError: 'float' object is not subscriptable
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+
+2020-05-28 07:31:54,525 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 139, in recommend2
+    top_ratings = recommendation_engine.get_top_ratings(userid, 5)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 89, in get_top_ratings
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[2]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in takeOrdered
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 844, in reduce
+    vals = self.mapPartitions(func).collect()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 816, in collect
+    sock_info = self.ctx._jvm.PythonRDD.collectAndServe(self._jrdd.rdd())
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\protocol.py", line 328, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 192.0 failed 1 times, most recent failure: Lost task 1.0 in stage 192.0 (TID 145, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 49, in <lambda>
+    predicted_rating_title_and_count_RDD.map(lambda r: (r[1][0][1][0], r[1][0][0][0], r[1][1], r[1][0][1][1], r[1][0][1][2], r[1][0][1][3], r[1][0][1][4]))
+TypeError: 'float' object is not subscriptable
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1891)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1879)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1878)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1878)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2112)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2061)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2050)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:738)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2126)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:385)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:989)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 49, in <lambda>
+    predicted_rating_title_and_count_RDD.map(lambda r: (r[1][0][1][0], r[1][0][0][0], r[1][1], r[1][0][1][1], r[1][0][1][2], r[1][0][1][3], r[1][0][1][4]))
+TypeError: 'float' object is not subscriptable
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+
+2020-05-28 07:56:59,314 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 139, in recommend2
+    top_ratings = recommendation_engine.get_top_ratings(userid, 5)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 89, in get_top_ratings
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[2]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in takeOrdered
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 844, in reduce
+    vals = self.mapPartitions(func).collect()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 816, in collect
+    sock_info = self.ctx._jvm.PythonRDD.collectAndServe(self._jrdd.rdd())
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\protocol.py", line 328, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 192.0 failed 1 times, most recent failure: Lost task 1.0 in stage 192.0 (TID 145, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 49, in <lambda>
+    predicted_rating_title_and_count_RDD.map(lambda r: (r[1][0][1][0], r[1][0][0], r[0][0][0][0], r[1][0][1][1], r[1][0][1][2], r[1][0][1][3], r[1][0][1][4]))
+TypeError: 'int' object is not subscriptable
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1891)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1879)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1878)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1878)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2112)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2061)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2050)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:738)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2126)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:385)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:989)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\util.py", line 99, in wrapper
+    return f(*args, **kwargs)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 49, in <lambda>
+    predicted_rating_title_and_count_RDD.map(lambda r: (r[1][0][1][0], r[1][0][0], r[0][0][0][0], r[1][0][1][1], r[1][0][1][2], r[1][0][1][3], r[1][0][1][4]))
+TypeError: 'int' object is not subscriptable
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+
+2020-05-28 08:24:48,036 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 141, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 08:27:50,331 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 141, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 08:30:44,049 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 141, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 08:58:34,954 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 141, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 09:07:06,889 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 142, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 09:13:10,889 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 142, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 09:14:36,960 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 142, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 09:17:40,102 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 142, in recommend2
+    b = [[[v for k, v in row.items()][i] for i in c] for row in a]
+NameError: name 'a' is not defined
+2020-05-28 09:33:24,705 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 139, in recommend2
+    top_ratings = recommendation_engine.get_top_ratings(userid, 5)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 93, in get_top_ratings
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[3]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in takeOrdered
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 844, in reduce
+    vals = self.mapPartitions(func).collect()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 816, in collect
+    sock_info = self.ctx._jvm.PythonRDD.collectAndServe(self._jrdd.rdd())
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\protocol.py", line 328, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 192.0 failed 1 times, most recent failure: Lost task 1.0 in stage 192.0 (TID 145, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 93, in <lambda>
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[3]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+TypeError: bad operand type for unary -: 'str'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1891)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1879)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1878)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1878)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2112)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2061)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2050)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:738)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2126)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:385)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:989)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 93, in <lambda>
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[3]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+TypeError: bad operand type for unary -: 'str'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+
+2020-05-28 09:36:40,816 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 139, in recommend2
+    top_ratings = recommendation_engine.get_top_ratings(userid, 5)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 94, in get_top_ratings
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[3]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in takeOrdered
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 844, in reduce
+    vals = self.mapPartitions(func).collect()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 816, in collect
+    sock_info = self.ctx._jvm.PythonRDD.collectAndServe(self._jrdd.rdd())
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\protocol.py", line 328, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 194.0 failed 1 times, most recent failure: Lost task 0.0 in stage 194.0 (TID 146, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 94, in <lambda>
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[3]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+TypeError: bad operand type for unary -: 'str'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1891)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1879)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1878)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1878)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2112)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2061)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2050)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:738)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2126)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:385)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:989)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 94, in <lambda>
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[3]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+TypeError: bad operand type for unary -: 'str'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+
+2020-05-28 09:49:38,964 - ERROR - app:log_exception - lineno:1891 - Exception on /recommend2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 139, in recommend2
+    top_ratings = recommendation_engine.get_top_ratings(userid, 5)
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 94, in get_top_ratings
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[3]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in takeOrdered
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 844, in reduce
+    vals = self.mapPartitions(func).collect()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 816, in collect
+    sock_info = self.ctx._jvm.PythonRDD.collectAndServe(self._jrdd.rdd())
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "C:\Users\chen\anaconda3\lib\site-packages\py4j\protocol.py", line 328, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 1 in stage 225.0 failed 1 times, most recent failure: Lost task 1.0 in stage 225.0 (TID 156, localhost, executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 94, in <lambda>
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[3]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+TypeError: bad operand type for unary -: 'str'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1891)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1879)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1878)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1878)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:927)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:927)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2112)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2061)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2050)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:738)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2061)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2082)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2126)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:385)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:989)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:166)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 377, in main
+  File "C:\Users\chen\anaconda3\Lib\site-packages\pyspark\python\lib\pyspark.zip\pyspark\worker.py", line 372, in process
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 2499, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 352, in func
+    return f(iterator)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pyspark\rdd.py", line 1304, in <lambda>
+    return self.mapPartitions(lambda it: [heapq.nsmallest(num, it, key)]).reduce(merge)
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in nsmallest
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "C:\Users\chen\anaconda3\lib\heapq.py", line 508, in <listcomp>
+    result = [(key(elem), i, elem) for i, elem in zip(range(n), it)]
+  File "F:\ѧϰ\BookRecommendationSystem\web\engine.py", line 94, in <lambda>
+    ratings = self.__predict_ratings(user_unrated_books_RDD).filter(lambda r: r[3]>=25).takeOrdered(books_count, key=lambda x: -x[1])
+TypeError: bad operand type for unary -: 'str'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:456)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:592)
+	at org.apache.spark.api.python.PythonRunner$$anon$1.read(PythonRunner.scala:575)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:410)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable$class.$plus$plus$eq(Growable.scala:59)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:104)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:48)
+	at scala.collection.TraversableOnce$class.to(TraversableOnce.scala:310)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toBuffer(TraversableOnce.scala:302)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce$class.toArray(TraversableOnce.scala:289)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$15.apply(RDD.scala:990)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2101)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:123)
+	at org.apache.spark.executor.Executor$TaskRunner$$anonfun$10.apply(Executor.scala:408)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1360)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:414)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+
+2020-06-07 11:10:54,337 - ERROR - app:bookinfo - lineno:349 - select book info error: 'NoneType' object has no attribute 'read'
+Traceback (most recent call last):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 338, in bookinfo
+    update_recommend_book(userid, bookid)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 311, in update_recommend_book
+    mysql.exe(sql)
+  File "F:\ѧϰ\BookRecommendationSystem\web\utils.py", line 53, in exe
+    c.execute(sql)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-06-07 11:11:01,655 - ERROR - app:rating - lineno:431 - rating books error: 'NoneType' object has no attribute 'read'
+Traceback (most recent call last):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 428, in rating
+    mysql.exe(sql)
+  File "F:\ѧϰ\BookRecommendationSystem\web\utils.py", line 53, in exe
+    c.execute(sql)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-06-07 11:11:01,865 - ERROR - app:rating - lineno:431 - rating books error: 'NoneType' object has no attribute 'read'
+Traceback (most recent call last):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 421, in rating
+    count = mysql.fetchone_db(sql)
+  File "F:\ѧϰ\BookRecommendationSystem\web\utils.py", line 32, in fetchone_db
+    c.execute(sql)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'
+2020-06-07 11:11:01,869 - ERROR - app:root - lineno:37 - select hot books error: (2013, 'Lost connection to MySQL server during query')
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 547, in ping
+    self._read_ok_packet()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 394, in _read_ok_packet
+    pkt = self._read_packet()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 671, in _read_packet
+    % (packet_number, self._next_seq_id))
+pymysql.err.InternalError: Packet sequence number wrong - got 101 expected 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 33, in root
+    hot_books = mysql.fetchall_db(sql)
+  File "F:\ѧϰ\BookRecommendationSystem\web\utils.py", line 42, in fetchall_db
+    self.connection.ping(reconnect=True)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 550, in ping
+    self.connect()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 598, in connect
+    self._get_server_information()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 975, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 668, in _read_packet
+    "Lost connection to MySQL server during query")
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+2020-06-07 11:11:01,870 - ERROR - app:add - lineno:520 - update Cart  books error: 'NoneType' object has no attribute 'settimeout'
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 547, in ping
+    self._read_ok_packet()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 394, in _read_ok_packet
+    pkt = self._read_packet()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 668, in _read_packet
+    "Lost connection to MySQL server during query")
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 514, in add
+    count = mysql.fetchone_db(sql)
+  File "F:\ѧϰ\BookRecommendationSystem\web\utils.py", line 31, in fetchone_db
+    self.connection.ping(reconnect=True)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 550, in ping
+    self.connect()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 599, in connect
+    self._request_authentication()
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 860, in _request_authentication
+    self.write_packet(data)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 645, in write_packet
+    self._write_bytes(data)
+  File "C:\Users\chen\anaconda3\lib\site-packages\pymysql\connections.py", line 711, in _write_bytes
+    self._sock.settimeout(self._write_timeout)
+AttributeError: 'NoneType' object has no attribute 'settimeout'
+2020-06-07 11:11:01,876 - ERROR - app:log_exception - lineno:1891 - Exception on /addcart [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 521, in add
+    return redirect(url_for('main.order'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'main.order'. Did you mean 'app.order' instead?
+2020-06-07 11:34:56,817 - ERROR - app:log_exception - lineno:1891 - Exception on /addcart [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 521, in add
+    return redirect(url_for('main.order'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'main.order'. Did you mean 'app.order' instead?
+2020-06-07 11:35:11,239 - ERROR - app:log_exception - lineno:1891 - Exception on /addcart [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 521, in add
+    return redirect(url_for('main.order'))
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'main.order'. Did you mean 'app.order' instead?
+2020-06-08 16:22:00,623 - ERROR - app:log_exception - lineno:1891 - Exception on /adminbook [GET]
+Traceback (most recent call last):
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 646, in adminbook
+    userid = session['userid']
+  File "C:\Users\chen\anaconda3\lib\site-packages\werkzeug\local.py", line 377, in <lambda>
+    __getitem__ = lambda x, i: x._get_current_object()[i]
+  File "C:\Users\chen\anaconda3\lib\site-packages\flask\sessions.py", line 84, in __getitem__
+    return super(SecureCookieSession, self).__getitem__(key)
+KeyError: 'userid'
+2020-06-08 16:52:46,574 - ERROR - app:user - lineno:370 - select UserInfo error: 'NoneType' object has no attribute 'items'
+Traceback (most recent call last):
+  File "F:\ѧϰ\BookRecommendationSystem\web\app.py", line 368, in user
+    userinfo = [v for k, v in userinfo.items()]
+AttributeError: 'NoneType' object has no attribute 'items'
+2020-09-21 19:59:45,391 - ERROR - utils:load_config - lineno:134 - Failed to read configuration file 'config.yml'. Error: 'builtin_function_or_method' object has no attribute 'read'
+2020-09-23 11:02:32,719 - ERROR - app:bookinfo - lineno:345 - select book info error: 'NoneType' object has no attribute 'read'
+Traceback (most recent call last):
+  File "E:\MyFold\Python\BookRecommendationSystem\web\app.py", line 338, in bookinfo
+    score = mysql.fetchone_db(sql)
+  File "E:\MyFold\Python\BookRecommendationSystem\web\utils.py", line 32, in fetchone_db
+    c.execute(sql)
+  File "E:\MySoftware\Python\Python37\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "E:\MySoftware\Python\Python37\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "E:\MySoftware\Python\Python37\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\MySoftware\Python\Python37\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "E:\MySoftware\Python\Python37\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "E:\MySoftware\Python\Python37\lib\site-packages\pymysql\connections.py", line 674, in _read_packet
+    recv_data = self._read_bytes(bytes_to_read)
+  File "E:\MySoftware\Python\Python37\lib\site-packages\pymysql\connections.py", line 691, in _read_bytes
+    data = self._rfile.read(num_bytes)
+AttributeError: 'NoneType' object has no attribute 'read'

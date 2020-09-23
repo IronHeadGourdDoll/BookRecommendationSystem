@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/styles.css"/>
+    <link rel="stylesheet" href="static/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="static/Flat-UI/dist/js/vendor/jquery.min.js"></script>
+    <script src="static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="static/Flat-UI/dist/js/flat-ui.min.js"></script>
+    <title>基于大数据的图书分析系统</title>
+</head>
+<body>
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only"></span>
+            </button>
+            <a class="navbar-brand" href="/">基于大数据图书分析系统</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">首页</a></li>
+                <li><a href="/historical">历史评分</a></li>
+                <li><a href="/user">个人中心</a></li>
+            </ul>
+            {% if not login %}
+                <ul class="nav navbar-nav navbar-right hidden-sm">
+                    <li><a href="/loginForm">登录</a></li>
+                    <li><a href="/registerationForm">注册</a></li>
+                    <li>
+                        <a href="/order"><span class="glyphicon glyphicon-shopping-cart">书单</span></a></li>
+                </ul>
+            {% else %}
+                <ul class="nav navbar-nav navbar-right hidden-sm">
+                    <li><a>{{ useid }}</a></li>
+                    <li><a href="/logout">注销</a></li>
+                    <li>
+                        <a href="/order"><span class="glyphicon glyphicon-shopping-cart">书单</span></a></li>
+                </ul>
+            {% endif %}
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<!--content-->
+<div class="row thumbnail" id="bookid" value="{{book_info[1]}}">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-4">
+            <img style="width: 100%; height: 500px; display: block;" src="{{book_info[4]}}">
+            <div class="caption center">
+                <h3>{{book_info[0]}}</h3>
+                <p>作者:{{book_info[3]}}</p>
+                <p>出版日期:{{book_info[2]}}</p>
+                <p><a class="btn btn-primary btn-block" role="button" href="/addcart?bookid={{book_info[1]}}" bookid="{{ book_info[1] }}">加入购物车</a>
+            </div>
+    </div>
+    <div class="col-md-4">
+        <div class="caption">
+                <h3>图书介绍</h3>
+                <br/>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;暂无<br/>
+                   </p>
+                <br/>
+            </div>
+    
+    
+    {% if not login %}
+    <a href="/loginForm" class="btn btn-primary" role="button">请登录后评分</a>
+    {% else %}
+    <h3>评分</h3>
+    <br/>
+    <div class="box" id="score_" value="{{score}}">
+        <input type="radio" value="five" name="rank" >
+        <label for="5" class="score"><svg width="56.5px" height="53.5px"><path id="score_5"/></svg></label>
+        <input type="radio" value="four" name="rank" >
+        <label for="4" class="score"><svg width="56.5px" height="53.5px"><path id="score_4"/></svg></label>
+        <input type="radio" value="three" name="rank" >
+        <label for="3" class="score"><svg width="56.5px" height="53.5px"><path id="score_3"/></svg></label>
+        <input type="radio" value="two" name="rank">
+        <label for="2" class="score"><svg width="56.5px" height="53.5px"><path id="score_2"/></svg></label>
+        <input type="radio" value="one" name="rank" >
+        <label for="1" class="score"><svg width="56.5px" height="53.5px"><path id="score_1" /></svg></label>
+    </div>
+    {% endif %}
+    </div>
+    <div class="col-md-2">
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var checked_num = $("#score_" ).attr("value")
+    var book_id = $("#bookid" ).attr("value")
+
+    for (var i=0;i<parseInt(checked_num);i++){
+        $("#score_"+(i+1)).css("fill","#f00")
+    }
+
+    $('#score_').on('click', '.score', function (e) {
+        var score = $(this).attr("for")
+
+        for (var i=0;i<5;i++){
+            $("#score_"+(i+1)).css("fill","none")
+        }
+
+
+        for (var i=0;i<parseInt(score);i++){
+            $("#score_"+(i+1)).css("fill","#f00")
+        }
+
+        $.ajax({
+            url:'/rating',
+            type:"POST",
+            data:{"rank":score,"book_id":book_id},
+            success:function (data) {
+                // console.log(data)
+            }
+        })  
+    }); 
+</script>
+</body>
+</html>

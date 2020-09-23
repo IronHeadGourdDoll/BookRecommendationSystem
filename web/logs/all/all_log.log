@@ -1,0 +1,1 @@
+2020-09-21 19:59:45,391 - ERROR - utils:load_config - lineno:134 - Failed to read configuration file 'config.yml'. Error: 'builtin_function_or_method' object has no attribute 'read'

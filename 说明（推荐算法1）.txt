@@ -1,0 +1,6 @@
+第一次导入数据库请运行：read_data_save_to_mysql.py
+更新推荐：
+第一步：将mysql文件导出为CSV: 运行write_mysql_to_csv.py
+第二步：使用协同过滤算法计算得到booktuijian.csv 运行BR_user.py
+第三步：将booktuijian.csv导入数据库 运行refresh_mysql.py
+即可使推荐算法1的得到更新。

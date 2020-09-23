@@ -1,0 +1,175 @@
+div.search {padding: 30px 0;}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+
+}
+.search_u{
+    height: 50px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.seach_label {
+    padding-top: 7px;
+}
+.footer_u {
+    padding-bottom: 30px;
+}
+
+input, button {
+    border: none;
+    outline: none;
+
+}
+
+input {
+    width: 100%;
+    height: 32px;
+    padding-left: 8px;
+
+}
+
+button {
+    /*width: 35px;*/
+    cursor: pointer;
+    position: absolute;
+ 
+}
+/*搜索框7*/
+.bar7 {
+    background: inherit;
+}
+.bar7 form {
+    height: 42px;
+}
+.bar7 input {
+    width: 250px;
+    border-radius: 42px;
+    border: 2px solid #324B4E;
+    background: #F9F0DA;
+    transition: .3s linear;
+    float: right;
+}
+.bar7 input:focus {
+    width: 300px;
+}
+.bar7 button {
+    background: none;
+    top: -2px;
+    right: 0;
+}
+.bar7 button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+.jumbotron {
+    /*background: url("../img/timg.jpg") no-repeat;*/
+    background-size:100% 100%;
+}
+
+.row{
+    margin-left: 20px;
+    margin-right: 20px;;
+}
+
+p {
+    white-space: nowrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.line-center{
+    line-height:32px;
+    text-align: center;
+}
+.row input{
+    width: 160px;
+}
+
+.list-group-item:hover{
+    background: #27ae60;
+
+}
+.list-group-item div:first-child:hover{
+
+    cursor: pointer;
+}
+th{
+    text-align: right;
+    width: 10%;;
+    padding: 10px;
+}
+td{
+    text-align: left;
+    width: 30%;;
+    padding: 10px;
+}
+.table th{
+    text-align: center;
+}
+.table td{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+/* 父元素，因为~符号只能匹配下面的兄弟节点，所以使用弹性盒的倒序改变五角星的排列方式 */
+.box{
+    width:320px;
+    height:60px;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+/* 隐藏单选 */
+input1{
+    display:none;
+}
+/* 五角星默认样式 */
+input[type="radio"]+label>svg>path{
+    d: path("M27.500,1.501 L36.069,16.899 L53.497,20.217 L41.365,33.051 L43.567,50.499 L27.500,43.032 L11.433,50.499 L13.635,33.051 L1.503,20.217 L18.931,16.899 L27.500,1.501 ");
+    stroke-width:1px;
+    fill:none;
+    stroke:#333;
+}
+/* 移入，点击选中的元素和下面的元素变为实心 */
+input[type="radio"]+label:hover>svg>path,
+input[type="radio"]+label:hover~input[type="radio"]+label>svg>path,
+input[type="radio"]:checked+label>svg>path,
+input[type="radio"]:checked~input[type="radio"]+label>svg>path{
+    stroke-width:0px;
+    fill:#f00;
+}
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=88);
+}
+.white_content {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 20%;
+    height: 45%;
+    padding: 20px;
+
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+
+

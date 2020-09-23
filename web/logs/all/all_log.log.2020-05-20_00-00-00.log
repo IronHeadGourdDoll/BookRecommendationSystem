@@ -1,0 +1,8 @@
+2020-05-20 22:51:27,048 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','059035342x','0') 
+2020-05-20 22:52:09,817 - INFO - app:is_valid - lineno:183 - username:39027,password:usa: has login filed
+2020-05-20 22:52:19,393 - INFO - app:register - lineno:157 - username:111,password:111,age:20 register success
+2020-05-20 22:52:22,806 - INFO - app:is_valid - lineno:180 - username:111,password:111: has login success
+2020-05-20 22:52:28,286 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('111','0971880107','0') 
+2020-05-20 22:52:31,347 - INFO - app:rating - lineno:359 - update book rating success,sql:INSERT INTO Bookrating (UserID,BookID,Rating) values ('111','0971880107','10') 
+2020-05-20 22:52:32,298 - INFO - app:add - lineno:448 - update Cart  success,sql:INSERT INTO Cart (UserID,BookID ) values ('111','0971880107') 
+2020-05-20 22:57:17,084 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','0971880107','0') 

@@ -1,0 +1,60 @@
+2020-05-21 08:15:22,344 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','0446672211','0') 
+2020-05-21 08:16:13,729 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0446672211" 
+2020-05-21 08:29:51,859 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','0385504209','0') 
+2020-05-21 08:29:58,706 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0385504209" 
+2020-05-21 08:30:02,478 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','0312195516','0') 
+2020-05-21 08:33:16,973 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','0452282152','0') 
+2020-05-21 08:34:53,532 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:34:54,564 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:34:56,949 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:34:57,607 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:35:02,696 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','0142001740','0') 
+2020-05-21 08:35:55,746 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0971880107" 
+2020-05-21 08:36:02,211 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0971880107" 
+2020-05-21 08:36:10,300 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','0316666343','0') 
+2020-05-21 08:36:13,885 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:37:00,669 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:37:30,727 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:37:31,719 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:38:08,601 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:38:15,233 - INFO - app:is_valid - lineno:180 - username:111,password:111: has login success
+2020-05-21 08:38:16,625 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="111" and BookID="0971880107" 
+2020-05-21 08:38:20,628 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('111','0452282152','0') 
+2020-05-21 08:39:15,012 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="111" and BookID="0452282152" 
+2020-05-21 08:39:22,031 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('111','0142001740','0') 
+2020-05-21 08:39:32,528 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('111','059035342x','0') 
+2020-05-21 08:39:36,632 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="111" and BookID="059035342X" 
+2020-05-21 08:40:17,977 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="059035342x" 
+2020-05-21 08:40:24,885 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="059035342X" 
+2020-05-21 08:40:53,835 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0971880107" 
+2020-05-21 08:41:00,579 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 08:41:05,649 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0142001740" 
+2020-05-21 08:41:11,556 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0316666343" 
+2020-05-21 08:41:18,403 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0312195516" 
+2020-05-21 08:41:24,498 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0385504209" 
+2020-05-21 08:41:26,665 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','0060928336','0') 
+2020-05-21 08:41:34,386 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="059035342X" 
+2020-05-21 08:43:18,408 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','0679865691','0') 
+2020-05-21 09:05:07,464 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="059035342x" 
+2020-05-21 09:05:11,135 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="059035342X" 
+2020-05-21 09:05:14,398 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="059035342X" 
+2020-05-21 09:05:15,334 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="059035342X" 
+2020-05-21 09:05:17,703 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0452282152" 
+2020-05-21 09:08:56,256 - INFO - app:is_valid - lineno:180 - username:111,password:111: has login success
+2020-05-21 09:08:58,306 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('111','1567407781','0') 
+2020-05-21 09:09:04,227 - INFO - app:add - lineno:448 - update Cart  success,sql:INSERT INTO Cart (UserID,BookID ) values ('111','1567407781') 
+2020-05-21 10:26:31,595 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0971880107" 
+2020-05-21 10:30:59,827 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('None','1567407781','0') 
+2020-05-21 10:42:30,172 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="0316666343" 
+2020-05-21 11:07:43,845 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="1567407781" 
+2020-05-21 11:28:49,937 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="1567407781" 
+2020-05-21 11:30:22,334 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="None" and BookID="1567407781" 
+2020-05-21 11:50:09,353 - INFO - app:is_valid - lineno:180 - username:111,password:111: has login success
+2020-05-21 11:50:11,474 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="111" and BookID="0971880107" 
+2020-05-21 11:50:15,014 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="111" and BookID="1567407781" 
+2020-05-21 11:50:17,720 - INFO - app:rating - lineno:359 - update book rating success,sql:INSERT INTO Bookrating (UserID,BookID,Rating) values ('111','1567407781','8') 
+2020-05-21 11:50:21,270 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="111" and BookID="1567407781" 
+2020-05-21 11:50:27,966 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="111" and BookID="1567407781" 
+2020-05-21 11:51:15,348 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="111" and BookID="059035342x" 
+2020-05-21 11:51:18,346 - INFO - app:update_recommend_book - lineno:234 - update_recommend_book, sql:UPDATE Booktuijian SET score='0' WHERE UserID="111" and BookID="059035342x" 
+2020-05-21 11:51:28,065 - INFO - app:update_recommend_book - lineno:240 - update_recommend_book, sql: insert into Booktuijian (UserID,BookID,score) values ('111','0312195516','0') 

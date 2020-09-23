@@ -1,0 +1,8 @@
+pandas
+Flask==0.12.1
+pymysql==0.9.3
+CherryPy==10.2.1
+PasteScript==2.0.2
+numpy
+pypandoc
+pyspark
